@@ -7,3 +7,6 @@ data/*
 # Fichiers de configuration ou secrets locaux
 .env
 *.env
+
+#igniorer le repo mlruns
+mlruns/*
