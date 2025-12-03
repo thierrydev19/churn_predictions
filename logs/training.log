@@ -1,0 +1,14 @@
+2025-12-03 11:41:54,211 - INFO - Mode: DEBUG – train/test split 80/20
+2025-12-03 11:41:54,220 - INFO - Scaler saved to models\scaler.pkl
+2025-12-03 11:41:54,235 - INFO - Baseline model saved to models/baseline_model.pkl
+2025-12-03 11:41:54,236 - INFO - Baseline accuracy: 0.7398
+2025-12-03 11:41:54,316 - INFO - XGBoost model saved to models/xgb_model.pkl
+2025-12-03 11:41:54,320 - INFO - XGBoost accuracy: 0.7836
+2025-12-03 11:41:54,320 - INFO - Training process completed.
+2025-12-03 11:43:47,525 - INFO - Mode: DEBUG – train/test split 80/20
+2025-12-03 11:43:47,535 - INFO - Scaler saved to models\scaler.pkl
+2025-12-03 11:43:47,550 - INFO - Baseline model saved to models/baseline_model.pkl
+2025-12-03 11:43:47,552 - INFO - Baseline accuracy: 0.7398
+2025-12-03 11:43:47,639 - INFO - XGBoost model saved to models/xgb_model.pkl
+2025-12-03 11:43:47,644 - INFO - XGBoost accuracy: 0.7836
+2025-12-03 11:43:47,645 - INFO - Training process completed.
