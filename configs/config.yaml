@@ -9,6 +9,9 @@ preprocessing:
 model:
   baseline_path: models/baseline_model.pkl
   xgb_path: models/xgb_model.pkl
+  scaler_path: models/scaler.pkl
+  label_encoders_path: models/label_encoders.pkl
+
 
 train:
   mode: debug            # valeurs possibles : "debug" ou "production"
@@ -22,9 +25,9 @@ baseline_model:
 
 xgb_model:
   type: xgboost
-  max_depth: 3
-  learning_rate: 0.1
-  n_estimators: 100
+  max_depth: 15
+  learning_rate: 0.5
+  n_estimators: 200
   scale_pos_weight: 2.5  # Ratio classe minoritaire / majoritaire
   reg_lambda: 2.0
   reg_alpha: 1.0
@@ -39,7 +42,20 @@ logging:
   log_file_predict: logs/predict.log
 
 predict:
-  input_path: data/Telco-Customer-Churn.csv
+  input_path: data/raw_data_churn_test.csv
   output_path: outputs/predictions.csv
   model_to_use: xgb  # ou "baseline"
+  model_registry_name: customerChurnModelXgboost
+  version_to_use: 4  # version_to_use: "latest"  # ou "latest"
 
+
+artifacts:
+  path: outputs/
+
+mlflow:
+  experiment_name: "telco_churn_experiment"
+  tracking_uri: "http://localhost:5000"
+  tags:
+    project: "telco_churn"
+    owner: "thierrydev19"
+    phase: "full-tracking"

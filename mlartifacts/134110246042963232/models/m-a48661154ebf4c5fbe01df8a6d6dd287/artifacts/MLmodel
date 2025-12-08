@@ -1,0 +1,32 @@
+artifact_path: mlflow-artifacts:/134110246042963232/models/m-a48661154ebf4c5fbe01df8a6d6dd287/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.7
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.1.2
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-a48661154ebf4c5fbe01df8a6d6dd287
+model_size_bytes: 840263
+model_uuid: m-a48661154ebf4c5fbe01df8a6d6dd287
+prompts: null
+run_id: 5cb5493cee654827a1c9e37868884403
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: ndarray
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 19]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-08 13:49:25.754103'

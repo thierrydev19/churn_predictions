@@ -1,28 +1,25 @@
-2025-12-03 11:41:54,211 - INFO - Mode: DEBUG – train/test split 80/20
-2025-12-03 11:41:54,220 - INFO - Scaler saved to models\scaler.pkl
-2025-12-03 11:41:54,235 - INFO - Baseline model saved to models/baseline_model.pkl
-2025-12-03 11:41:54,236 - INFO - Baseline accuracy: 0.7398
-2025-12-03 11:41:54,316 - INFO - XGBoost model saved to models/xgb_model.pkl
-2025-12-03 11:41:54,320 - INFO - XGBoost accuracy: 0.7836
-2025-12-03 11:41:54,320 - INFO - Training process completed.
-2025-12-03 11:43:47,525 - INFO - Mode: DEBUG – train/test split 80/20
-2025-12-03 11:43:47,535 - INFO - Scaler saved to models\scaler.pkl
-2025-12-03 11:43:47,550 - INFO - Baseline model saved to models/baseline_model.pkl
-2025-12-03 11:43:47,552 - INFO - Baseline accuracy: 0.7398
-2025-12-03 11:43:47,639 - INFO - XGBoost model saved to models/xgb_model.pkl
-2025-12-03 11:43:47,644 - INFO - XGBoost accuracy: 0.7836
-2025-12-03 11:43:47,645 - INFO - Training process completed.
-2025-12-03 15:59:43,471 - INFO - Mode: DEBUG – train/test split 80/20
-2025-12-03 15:59:43,479 - INFO - Scaler saved to models\scaler.pkl
-2025-12-03 15:59:43,494 - INFO - Baseline model saved to models/baseline_model.pkl
-2025-12-03 15:59:43,496 - INFO - Baseline accuracy: 0.7398
-2025-12-03 15:59:43,601 - INFO - XGBoost model saved to models/xgb_model.pkl
-2025-12-03 15:59:43,605 - INFO - XGBoost accuracy: 0.7836
-2025-12-03 15:59:43,605 - INFO - Training process completed.
-2025-12-03 16:01:30,945 - INFO - Mode: DEBUG – train/test split 80/20
-2025-12-03 16:01:30,954 - INFO - Scaler saved to models\scaler.pkl
-2025-12-03 16:01:30,969 - INFO - Baseline model saved to models/baseline_model.pkl
-2025-12-03 16:01:30,971 - INFO - Baseline accuracy: 0.7398
-2025-12-03 16:01:31,066 - INFO - XGBoost model saved to models/xgb_model.pkl
-2025-12-03 16:01:31,070 - INFO - XGBoost accuracy: 0.7836
-2025-12-03 16:01:31,070 - INFO - Training process completed.
+2025-12-08 15:22:41,271 - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9EAFA900>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:22:50,146 - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9EAE3D90>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:23:02,740 - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9EAE3ED0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:23:23,727 - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9EAB7360>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:24:00,377 - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9EAB75C0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:24:42,111 - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F43C2063C0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:24:51,150 - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F43C23C190>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:25:04,045 - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F43C23C2D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:25:24,623 - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F43C1AE520>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:26:01,640 - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F43C1AE780>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:27:10,380 - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F43C18B1D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=telco_churn_experiment
+2025-12-08 15:31:47,873 - INFO - Mode: DEBUG – train/test split 80/20
+2025-12-08 15:31:47,881 - INFO - Scaler saved to models\scaler.pkl
+2025-12-08 15:31:48,203 - INFO - Baseline model saved to models/baseline_model.pkl
+2025-12-08 15:31:48,810 - INFO - Training baseline model complete.
+2025-12-08 15:31:54,844 - INFO - Mode: DEBUG – train/test split 80/20
+2025-12-08 15:31:54,852 - INFO - Scaler saved to models\scaler.pkl
+2025-12-08 15:31:55,605 - INFO - XGBoost model saved to models/xgb_model.pkl
+2025-12-08 15:32:04,446 - INFO - Training xgboost model completed.
+2025-12-08 16:59:10,314 - INFO - Mode: DEBUG – train/test split 80/20
+2025-12-08 16:59:10,323 - INFO - Scaler saved to models\scaler.pkl
+2025-12-08 16:59:29,194 - INFO - Mode: DEBUG – train/test split 80/20
+2025-12-08 16:59:29,203 - INFO - Scaler saved to models\scaler.pkl
+2025-12-08 16:59:29,975 - INFO - XGBoost model saved to models/xgb_model.pkl
+2025-12-08 16:59:36,018 - INFO - Training xgboost model completed.

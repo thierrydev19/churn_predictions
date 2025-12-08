@@ -1,0 +1,139 @@
+2025-12-08 16:45:51,047 - INFO - Starting prediction process.
+2025-12-08 16:45:51,050 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 16:45:51,062 - INFO - scaler et label encoders chargés depuis models/scaler.pkl et models/label_encoders.pkl.
+2025-12-08 16:45:51,078 - INFO - Prétraitement des nouvelles données effectué.
+2025-12-08 16:45:58,266 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/3.
+2025-12-08 16:45:58,272 - INFO - Predictions saved to outputs/predictions.csv
+2025-12-08 16:48:45,331 - INFO - Starting prediction process.
+2025-12-08 16:48:45,334 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 16:48:45,338 - INFO - scaler et label encoders chargés depuis models/scaler.pkl et models/label_encoders.pkl.
+2025-12-08 16:48:45,352 - INFO - Prétraitement des nouvelles données effectué.
+2025-12-08 16:48:51,382 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/3.
+2025-12-08 16:48:51,388 - INFO - Predictions saved to outputs/predictions.csv
+2025-12-08 16:49:24,668 - INFO - Starting prediction process.
+2025-12-08 16:49:24,671 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 16:49:24,674 - INFO - scaler et label encoders chargés depuis models/scaler.pkl et models/label_encoders.pkl.
+2025-12-08 16:49:24,687 - INFO - Prétraitement des nouvelles données effectué.
+2025-12-08 16:49:31,220 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/3.
+2025-12-08 16:49:31,226 - INFO - Predictions saved to outputs/predictions.csv
+2025-12-08 16:49:50,624 - INFO - Starting prediction process.
+2025-12-08 16:49:50,626 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 16:49:50,630 - INFO - scaler et label encoders chargés depuis models/scaler.pkl et models/label_encoders.pkl.
+2025-12-08 16:49:50,643 - INFO - Prétraitement des nouvelles données effectué.
+2025-12-08 16:49:57,178 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/3.
+2025-12-08 16:49:57,184 - INFO - Predictions saved to outputs/predictions.csv
+2025-12-08 16:49:57,200 - INFO - Predictions saved to outputs/predictions.csv
+2025-12-08 17:12:02,962 - INFO - Starting prediction process.
+2025-12-08 17:12:02,965 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:12:08,970 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:12:08,982 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:17:02,477 - INFO - Starting prediction process.
+2025-12-08 17:17:02,480 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:17:04,940 - WARNING - Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None)': /api/2.0/mlflow/registered-models/get?name=customerChurnModelXgboost
+2025-12-08 17:17:11,655 - WARNING - Retrying (Retry(total=5, connect=7, read=5, redirect=7, status=7)) after connection broken by 'ConnectionAbortedError(10053, 'Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte', None, 10053, None)': /api/2.0/mlflow/registered-models/get?name=customerChurnModelXgboost
+2025-12-08 17:17:21,857 - WARNING - Retrying (Retry(total=4, connect=7, read=4, redirect=7, status=7)) after connection broken by 'ConnectionResetError(10054, 'Une connexion existante a dû être fermée par l’hôte distant', None, 10054, None)': /api/2.0/mlflow/registered-models/get?name=customerChurnModelXgboost
+2025-12-08 17:17:27,885 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:17:27,905 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:19:36,759 - INFO - Starting prediction process.
+2025-12-08 17:19:36,762 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:19:42,528 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:19:42,547 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:26:30,834 - INFO - Starting prediction process.
+2025-12-08 17:26:30,837 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:26:37,092 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:26:37,103 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:31:12,116 - INFO - Starting prediction process.
+2025-12-08 17:31:12,119 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:31:18,454 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:31:18,465 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:36:14,314 - INFO - Starting prediction process.
+2025-12-08 17:36:14,317 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:36:20,582 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:36:20,594 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:36:20,594 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 17:39:40,032 - INFO - Starting prediction process.
+2025-12-08 17:39:40,035 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:39:46,582 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:39:46,596 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:39:46,596 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 17:41:35,537 - INFO - Starting prediction process.
+2025-12-08 17:41:35,541 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:41:41,370 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:41:41,382 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:41:41,383 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 17:43:12,926 - INFO - Starting prediction process.
+2025-12-08 17:43:12,929 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:43:18,875 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:43:18,888 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:43:18,888 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 17:46:56,457 - INFO - Starting prediction process.
+2025-12-08 17:46:56,460 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:47:03,044 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:47:03,056 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:47:03,057 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 17:51:04,990 - INFO - Starting prediction process.
+2025-12-08 17:51:04,993 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:51:11,291 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:51:11,303 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:51:11,304 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 17:53:52,733 - INFO - Starting prediction process.
+2025-12-08 17:53:52,736 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:53:59,354 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:53:59,367 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:53:59,367 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 17:59:12,789 - INFO - Starting prediction process.
+2025-12-08 17:59:12,792 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 17:59:19,091 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 17:59:19,102 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 17:59:19,102 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 18:00:24,872 - INFO - Starting prediction process.
+2025-12-08 18:00:24,875 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:00:31,190 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:00:31,207 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:00:31,207 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts
+2025-12-08 18:19:05,478 - INFO - Starting prediction process.
+2025-12-08 18:19:05,481 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:19:11,391 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:19:11,404 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:19:11,405 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts.
+2025-12-08 18:19:11,405 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:19:40,373 - INFO - Starting prediction process.
+2025-12-08 18:19:40,376 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:19:46,640 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:19:46,652 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:19:46,653 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts.
+2025-12-08 18:19:46,653 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:21:04,291 - INFO - Starting prediction process.
+2025-12-08 18:21:04,295 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:21:10,008 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:21:10,019 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:21:10,020 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts.
+2025-12-08 18:21:10,020 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:22:23,339 - INFO - Starting prediction process.
+2025-12-08 18:22:23,342 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:22:29,526 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:22:29,538 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:22:29,539 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts.
+2025-12-08 18:22:29,539 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:23:52,753 - INFO - Starting prediction process.
+2025-12-08 18:23:52,756 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:23:59,225 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:23:59,236 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:23:59,237 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts.
+2025-12-08 18:23:59,237 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:23:59,577 - INFO - Prétraitement des nouvelles données effectué.
+2025-12-08 18:23:59,583 - INFO - Predictions saved to outputs/predictions.csv
+2025-12-08 18:30:44,251 - INFO - Starting prediction process.
+2025-12-08 18:30:44,254 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:30:50,688 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:30:50,703 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:30:50,703 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts.
+2025-12-08 18:30:50,934 - INFO - Prétraitement des nouvelles données effectué.
+2025-12-08 18:30:50,940 - INFO - Predictions saved to outputs/predictions.csv
+2025-12-08 18:31:45,801 - INFO - Starting prediction process.
+2025-12-08 18:31:45,804 - INFO - données brutes chargées depuis input data/raw_data_churn_test.csv with shape (1, 20).
+2025-12-08 18:31:51,589 - INFO - Modèle chargé depuis MLflow avec URI: models:/customerChurnModelXgboost/4.
+2025-12-08 18:31:51,601 - INFO - Run ID for the model version 4: e3d726593c25431c8b891882c9ab5b3e
+2025-12-08 18:31:51,601 - INFO - Téléchargement des artéfacts de prétraitement dans preprocessing_artifacts.
+2025-12-08 18:31:51,819 - INFO - Prétraitement des nouvelles données effectué.
+2025-12-08 18:31:51,825 - INFO - Predictions saved to outputs/predictions.csv
