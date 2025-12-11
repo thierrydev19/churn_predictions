@@ -26,7 +26,7 @@ baseline_model:
 xgb_model:
   type: xgboost
   max_depth: 15
-  learning_rate: 0.5
+  learning_rate: 0.6
   n_estimators: 200
   scale_pos_weight: 2.5  # Ratio classe minoritaire / majoritaire
   reg_lambda: 2.0
