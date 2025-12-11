@@ -2,7 +2,7 @@
 venv-churn/
 
 # Exclure tout le contenu du dossier data/
-data/*
+#data/*
 
 # Fichiers de configuration ou secrets locaux
 .env
